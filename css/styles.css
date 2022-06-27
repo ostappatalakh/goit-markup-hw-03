@@ -68,8 +68,6 @@ body {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;    
-    
-    /* outline: 1px solid tomato; */
 }
 
 
@@ -109,8 +107,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--text-color-black);
     border-bottom: 1px solid #ECECEC;
-
-    /* outline: 1px solid tomato; */
 }
 
 
@@ -129,8 +125,6 @@ body {
     padding-top: 32px;
     padding-bottom: 32px;
     margin-left: auto;
-
-    /* outline: 1px solid tomato; */
 }
 
 .nav-contacts .item+.item {
@@ -160,9 +154,6 @@ body {
     color: var(--text-color-gray);
     letter-spacing: 0.02em;
     text-decoration: none;
-    
-    
-    /* background-color: tomato; */
 }
 
 .current,
@@ -193,9 +184,6 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--color-white);
-
-    /* background-color: teal; */
-
 }
 
 .btn-hero {
@@ -247,19 +235,19 @@ body {
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--text-color-black);
-
-    outline: 1 solid tomato;
 }
 
 .benefits-description {
     font-size: 14px;
     line-height: 1.71;
     margin-bottom: 0;
-
-    /* background-color: teal; */
 }
 
 /* our-jobs */
+
+.our-jobs {
+    padding-top: 0px;
+}
 .our-jobs-title {
     margin-bottom: 50px;
     font-weight: 700;
@@ -314,10 +302,6 @@ body {
     line-height: 1.19;
     text-align: center;
 }
-
-/* .stuff-item {
-    outline: 1px solid lightgrey;
-} */
 
 .stuff-list .stuff-item+.stuff-item {
     margin-left: 30px;
@@ -427,9 +411,12 @@ body {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
-    border: 1px solid #eeeeee;
-    
 }
+
+.project-item-card {
+    border: 1px solid #eeeeee;
+}
+
 
 .projects-item:nth-child(3n) {
     margin-right: 0;
@@ -437,10 +424,6 @@ body {
 
 .projects-item:nth-last-child(-n + 3)  {
     margin-bottom: 0;
-}
-
-.project-img {
-    margin-bottom: 20px;
 }
 
 .project-link {
@@ -454,6 +437,7 @@ body {
     display: inline-block;
     margin-bottom: 4px;
     padding-left: 24px;
+    padding-top: 20px;
     text-decoration: none;
     font-weight: 700;
     font-size: 18px;
