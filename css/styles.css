@@ -317,6 +317,7 @@ body {
 .logo-footer {
     display: flex;
     margin-bottom: 20px;
+    text-decoration: none;
 }
 
 .logo-studio-footer {
