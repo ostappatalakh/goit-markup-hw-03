@@ -76,6 +76,7 @@ body {
     display: flex;
     align-items: center;
     background-color: var(--color-white);
+    border-bottom: 1px solid #ECECEC;
 }
 
 .logo {
@@ -106,7 +107,6 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color-black);
-    border-bottom: 1px solid #ECECEC;
 }
 
 
@@ -171,6 +171,8 @@ body {
 
 .hero-section {
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -283,9 +285,12 @@ body {
     text-align: center;
     color: var(--text-color-black);
 }
-.stuff-image {
+
+.stuff-info {
+    margin-top: 30px;
     margin-bottom: 30px;
 }
+
 
 .stuff-name {
     margin-bottom: 10px;
@@ -297,7 +302,6 @@ body {
 }
 
 .stuff-position {
-    margin-bottom: 30px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -317,6 +321,10 @@ body {
 .logo-footer {
     display: flex;
     margin-bottom: 20px;
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
     text-decoration: none;
 }
 
@@ -416,6 +424,9 @@ body {
 
 .project-item-card {
     border: 1px solid #eeeeee;
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -429,7 +440,6 @@ body {
 
 .project-link {
     display: block;
-    margin-bottom: 20px;
     text-decoration: none;
     color: var(--text-color-gray);
 }
@@ -437,8 +447,6 @@ body {
 .project-title {
     display: inline-block;
     margin-bottom: 4px;
-    padding-left: 24px;
-    padding-top: 20px;
     text-decoration: none;
     font-weight: 700;
     font-size: 18px;
@@ -448,16 +456,7 @@ body {
 }
 
 .project-type {
-    /* display: inline-block; */
-    margin-bottom: 20px;
-    padding-left: 24px;
     text-decoration: none;
     font-size: 16px;
     line-height: 1.88;
-}
-
-
-.project-description {
-    font-size: 0;
-    color: transparent;
 }
